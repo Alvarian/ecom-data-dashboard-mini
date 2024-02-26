@@ -5,4 +5,4 @@ clear
 rm -rf ./out
 rm -rf ./src-tauri/target
 
-pnpm tauri build
+pnpm tauri build --verbose
