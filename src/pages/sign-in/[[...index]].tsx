@@ -21,7 +21,7 @@ export default function SignInForm() {
       if (result.status === "complete") {
         console.log(result);
         await setActive({ session: result.createdSessionId });
-        window.location.href = "/images";
+        window.location.href = "/";
       }
       else {
         /*Investigate why the login hasn't completed */
